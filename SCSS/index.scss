@@ -1,0 +1,47 @@
+
+/** CSS pagina index **/
+
+.texto-index{
+    width: 50%;
+    border-style:none;
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-align: center;
+    margin: 1rem 25% 1rem 25%;
+    font-family: $fuente;
+    box-shadow: 2px 2px 9px 0px rgb(0, 0, 0);
+}
+.video-index{
+    @include alineacion-fuente(center,$fuente);
+}
+
+.bienvenida{
+    @include alineacion-fuente(center,$fuente);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.contenedor-carrusel{
+    width: 100%;  
+    .carrusel{
+        margin-top: 1rem;
+        width: 50%;
+        @include margenes-automaticos(25%,25%);
+        margin-bottom: 1rem;
+
+        div {
+            width: 100%;
+            div {
+                width: 100%;
+                border-radius: 50%;
+                div{
+                    width: 100%;   
+                }
+            }
+        }        
+    }
+}
+
+.video-index-enlace{
+    width: 50%;
+}

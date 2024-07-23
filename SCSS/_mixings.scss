@@ -1,0 +1,17 @@
+@mixin margenes-automaticos($l,$r){
+    margin-left: $l;
+    margin-right: $r;
+}
+@mixin color-letra-footer-header($color,$fuente){
+    background-color: $color;
+        font-family: $fuente
+}
+@mixin titulos-recetas($posicion,$fuente,$margen){
+    margin-top: $margen;
+    text-align: $posicion;
+    font-family: $fuente;
+}
+@mixin alineacion-fuente($posicion,$fuente){
+    text-align: $posicion;
+    font-family: $fuente;
+}

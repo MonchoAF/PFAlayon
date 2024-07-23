@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "name": "preentrega2alayon-terser-entrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "watch-css": "sass --watch SCSS/main.scss css/main.scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

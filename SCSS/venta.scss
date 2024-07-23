@@ -1,0 +1,26 @@
+/* css pagina venta  */
+.imagen-venta-1{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    img{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(241, 116, 193);
+        @include margenes-automaticos(auto,auto);
+    }
+}
+.contenedor-card{
+    width: 100%;
+    .card{
+        width: 75%;
+        margin: auto;
+        font-family: $fuente;
+        .card-body{
+            a{
+                @include margenes-automaticos(40%,40%);
+            }
+        }
+    }
+}
+

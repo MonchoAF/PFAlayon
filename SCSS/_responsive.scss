@@ -1,0 +1,32 @@
+//Personal
+@media (max-width:480px) {
+    .imagen-personal img{
+        width: 60%;
+    }
+}
+//Recetas
+@media(max-width:1250px){
+    .recetas{
+        display: block;
+        .receta-1{
+            @include margenes-automaticos(auto,auto);
+            margin-top: 2rem;
+            img{
+                margin-top: 1rem;
+            }
+        }
+        .receta-2{
+            margin-top: 2rem;
+            img{
+                margin-top: 1rem;
+            }
+        }
+        .receta-3{
+            @include margenes-automaticos(auto,auto);
+            margin-top: 2rem;
+            img{
+                margin-top: 1rem;
+            }
+        }
+    }
+}

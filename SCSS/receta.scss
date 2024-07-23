@@ -1,0 +1,60 @@
+/* css recetas*/
+
+.titulos-recetas{
+    display: block;
+    width: 100%;
+    h1{
+        @include titulos-recetas(center,2rem,$fuente);
+    }
+    h3{
+        @include titulos-recetas(center,2rem,$fuente);
+    }
+}
+
+
+.recetas{
+    display: flex;
+    width: 100%;
+    div{
+        width: 20rem;
+        text-align: center;
+        font-family: $fuente;
+    }
+    .receta-1{
+        margin-left: 10%;
+    }
+    .receta-2{
+        @include margenes-automaticos(auto,auto);
+    }
+    .receta-3{
+        margin-right: 10%;
+    }
+}
+
+/* responsive */
+
+@media(max-width:1250px){
+    .recetas{
+        display: block;
+        .receta-1{
+            @include margenes-automaticos(auto,auto);
+            margin-top: 2rem;
+            img{
+                margin-top: 1rem;
+            }
+        }
+        .receta-2{
+            margin-top: 2rem;
+            img{
+                margin-top: 1rem;
+            }
+        }
+        .receta-3{
+            @include margenes-automaticos(auto,auto);
+            margin-top: 2rem;
+            img{
+                margin-top: 1rem;
+            }
+        }
+    }
+}
